@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const IntroPage(),
+      home: IntroPage(),
       routes: {
         HomePage.id: (context) => HomePage(),
         IntroPage.id: (context) => IntroPage(),
